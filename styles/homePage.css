@@ -45,6 +45,10 @@ nav ul li a:hover {
     margin-top: 35px;
 }
 
+.navbar {
+    max-height: 150px;
+}
+
 
 /*Sub Navigation*/
 nav ul li ul {
@@ -83,29 +87,101 @@ body {
     padding: 0;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 
-
-.content {
-    width: 675px;
-    height: 700px;
-    padding: 20px;
-    box-sizing: border-box;
-
-    margin-left: 40px;
-    margin-top: 20px;
-
+    margin-top: 10px;
 }
 
-.title {
-    width: 575px;
-    height: 150px;
-
-  
-    box-sizing: border-box;
+.column {
+    flex-basis: calc(50% - 100px);
+    margin-bottom: 40px;
 }
 
-.title h1 {
+.column h2 {
+    
     color: rgb(7, 7, 129);
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);font-size: 35px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-size: 36px;
 
+    margin-top: 40px;
+}
+
+.column p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.imgColumn {
+    max-width: 100%;
+    height: 100%;
+
+    cursor: pointer;    
+}
+
+.zeff {
+    width: 300px;
+    height: 300px;
+    margin-right: 60px;
+
+    border-radius: 50%;
+}
+
+/*Dynamic image code not working*/
+.zeff2 {
+    width: 300px;
+    height: 300px;
+    margin-right: 60px;
+
+    border-radius: 50%;
+    display: none;
+
+
+}
+
+.zeff2:hover {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/*Location*/
+.location {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+
+    width: 600px;
+    height: 300px;
+
+    margin-left: 250px;
+    
+}
+
+.map {
+    width: 600px;
+    height: 300px;
+
+    border-radius: 25%;
+
+    margin-bottom: 20px;
+}
+
+.location p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+    justify-content: center;
+    text-align: center;
 }
