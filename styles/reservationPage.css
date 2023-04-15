@@ -1,0 +1,36 @@
+.form-content {
+    justify-content: center;
+    text-align: center;
+}
+
+.form-content h2 {
+    margin-top: 10px;
+}
+
+.form-label {
+    max-width: 300px;
+    flex-direction: row;
+}
+
+.email-select {
+
+}
+
+.date-select {
+
+}
+
+.table {
+    width: 800px !important;
+    justify-content: center;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.table td {
+    border: 1px solid black;
+}
+
+.table th {
+    border: 1px solid black;
+}
